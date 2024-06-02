@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/IV_product"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bronzer" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/TV_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maybelline"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/TV_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bronzer"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 14.99"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/tersedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Option Available"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageViewFavorite"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:contentDescription="@string/add_to_favorites"
+                android:focusable="true"
+                android:src="@drawable/ic_favorite_border" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="277dp"
+        android:backgroundTint="#070F2B"
+        android:text="RETRY"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/connectionlost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Lost....."
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="315dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
