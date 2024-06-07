@@ -10,7 +10,7 @@ Aplikasi ini berfungsi untuk memberikan informasi detail mengenai berbagai produ
 - Membuat Akun         : Isi formulir pendaftaran dengan informasi yang diperlukan dan klik tombol "Daftar". Setelah akun berhasil                          dibuat, pengguna akan kembali ke halaman login.
 - Login                : Masukkan username dan kata sandi yang telah didaftarkan untuk login ke aplikasi.
 - Halaman Utama        : Setelah login berhasil, pengguna akan masuk ke halaman utama yang menampilkan berbagai produk makeup dari                          Maybelline.
-- Halaman Pencarian    : Aplikasi menyediakan halaman pencarian untuk memudahkan pengguna mencari produk makeup yang diinginkan. - - Ketik kata kunci di kolom pencarian dan hasil pencarian akan ditampilkan.
+- Halaman Pencarian    : Aplikasi menyediakan halaman pencarian untuk memudahkan pengguna mencari produk makeup yang diinginkan.Ketik kata kunci di kolom pencarian dan hasil pencarian akan ditampilkan.
 - Wishlist             : Pada halaman utama, pengguna dapat menambahkan produk ke wishlist dengan mengklik ikon hati (Love) di                              setiap produk. Produk yang ditambahkan ke wishlist akan tersimpan di halaman wishlist.
 - Profil Pengguna dan Logout: Di halaman utama, pengguna dapat melihat nama pengguna dan tombol logout. Klik tombol logout untuk                             keluar dari aplikasi.
 
