@@ -4,7 +4,7 @@
 Aplikasi ini berfungsi untuk memberikan informasi detail mengenai berbagai produk makeup dari merek Maybelline. Setiap produk dilengkapi dengan informasi seperti nama produk, harga, deskripsi, dan gambar merk nya.
 
 
-# Fitu dan Penggunaan Aplikasi
+# Fitur dan Penggunaan Aplikasi
 - Masuk Halaman Login  : Pengguna akan diarahkan ke halaman login saat pertama kali membuka aplikasi.
 - Halaman Registrasi   : Pengguna harus membuat akun terlebih dahulu sebelum bisa login. Klik tombol "Daftar" untuk masuk ke                                halaman registrasi.
 - Membuat Akun         : Isi formulir pendaftaran dengan informasi yang diperlukan dan klik tombol "Daftar". Setelah akun berhasil                          dibuat, pengguna akan kembali ke halaman login.
