@@ -1,7 +1,7 @@
 # Tugas-Akhir-Mobile
 
 # Deskripsi
-HeBeauty
+# HeBeauty
 Aplikasi ini berfungsi untuk memberikan informasi detail mengenai berbagai produk makeup dari merek Maybelline. Setiap produk dilengkapi dengan informasi seperti nama produk, harga, deskripsi, dan gambar merk nya.
 
 
